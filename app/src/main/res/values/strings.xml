@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RoomPOC</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="set_date">Set Date</string>
+    <string name="title_activity_notification_list">NotificationListActivity</string>
+    <string name="title_activity_add_notification">Create New Notification</string>
+
+    <string name="txt_notification">Notifications</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="my_cart">My Cart</string>
+    <string name="txt_delete">DELETE</string>
+    <string name="txt_copy">COPY</string>
+    <string name="txt_code">Code</string>
+    <string name="txt_code_validity_prefix">Valid till </string>
+
+    <string-array name="image_url">
+        <item>Image Url</item>
+        <item>url1</item>
+        <item>url2</item>
+        <item>url3</item>
+    </string-array>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

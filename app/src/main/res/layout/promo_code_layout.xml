@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/promo_layout_top_margin"
+    android:layout_toEndOf="@id/be_thumbnail"
+    android:layout_below="@+id/txt_description">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/code_validity_margin">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/code_copy_margin">
+
+            <TextView
+                android:id="@+id/code_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_code"
+                android:layout_marginEnd="@dimen/code_text_margin"/>
+
+            <TextView
+                android:id="@+id/txt_promo_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/code_label"
+                android:text="HOTEL17"
+                android:textColor="@color/promo_code_color"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_copy_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_copy"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/notification_delete_text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_code_validity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valid till Nov 16, 2017"/>
+
+</LinearLayout>
